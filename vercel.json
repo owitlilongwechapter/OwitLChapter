@@ -1,14 +1,39 @@
 {
   "version": 2,
-  "functions": {
-    "server/app.js": {
-      "runtime": "@vercel/node"
-    }
-  },
-  "rewrites": [
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/server/app.js"
+      "src": "server/app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/about",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/join-us",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/events-programs",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/news",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/partners-sponsors",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/contact",
+      "dest": "server/app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server/app.js"
     }
   ]
 }
