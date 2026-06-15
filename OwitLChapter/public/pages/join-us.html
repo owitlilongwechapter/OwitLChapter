@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OWITL | Join Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header"><div class="container navbar"><a class="logo" href="/"><img src="/logo/OWIT LOGO.jpeg" alt="OWITL Logo" /></a><button class="nav-toggle" type="button">Menu</button><ul class="nav-links"><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li class="dropdown"><button class="drop-btn" type="button">Join Us</button><ul class="dropdown-menu"><li><a href="#become-member">Become a Member</a></li><li><a href="#benefits">Why Become a Member</a></li><li><a href="#testimonials">Success Stories</a></li></ul></li><li><a href="/events-programs">Events and Programs</a></li><li><a href="/news">News</a></li><li><a href="/partners-sponsors">Partners</a></li><li><a href="/contact">Contact</a></li></ul></div></header>
+
+  <main>
+    <section class="page-hero container"><h1>Join Us</h1><p>Become part of a professional network designed for leadership, growth, and opportunity.</p></section>
+
+    <section id="become-member" class="page-section container join-layout">
+      <div class="info-card join-form-card">
+        <h3>Become a Member</h3>
+        <p>Complete this form to submit your membership application.</p>
+        <form id="membership-form" class="contact-form form-grid">
+          <label>
+            <span>Full Name</span>
+            <input type="text" name="fullName" placeholder="Enter your full name" required />
+          </label>
+          <label>
+            <span>Email Address</span>
+            <input type="email" name="email" placeholder="Enter your email address" required />
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input type="text" name="phone" placeholder="Enter your phone number" required />
+          </label>
+          <label>
+            <span>Profession or Business</span>
+            <input type="text" name="profession" placeholder="Enter your profession or business" />
+          </label>
+          <label class="form-field-full">
+            <span>Why do you want to join OWITL?</span>
+            <textarea name="motivation" rows="5" placeholder="Share your motivation for joining" required></textarea>
+          </label>
+          <div class="form-actions form-field-full">
+            <button type="submit">Submit Application</button>
+            <p id="membership-form-status" aria-live="polite"></p>
+            <p class="form-note">Your application details will be sent to <strong>owitlilongwechapter@gmail.com</strong>.</p>
+          </div>
+        </form>
+      </div>
+
+      <article id="benefits" class="info-card join-benefits-card">
+        <h3>Why Become a Member</h3>
+        <p>OWITL membership gives you direct access to opportunities that support your professional and entrepreneurial growth.</p>
+        <div class="benefits-mini-cards">
+          <article class="mini-card"><h4>Capacity Building and Training</h4><p>Gain access to tailored workshops, coaching, and professional development that help you build stronger businesses and leadership skills.</p></article>
+          <article class="mini-card"><h4>Access to International Markets</h4><p>Connect with global trade partners, export networks, and cross-border opportunities designed to expand your reach beyond Malawi.</p></article>
+          <article class="mini-card"><h4>Advocacy and Policy Influence</h4><p>Join a collective voice that shapes policy, improves the business environment for women, and advances gender-inclusive economic growth.</p></article>
+        </div>
+      </article>
+    </section>
+
+    <section id="testimonials" class="page-section container">
+      <h2 class="section-title">Member Success Stories</h2>
+      <div class="slider" data-slider-id="join-testimonials">
+        <button class="slider-btn prev" type="button" aria-label="Previous success story">&#10094;</button>
+        <div class="slide-track" data-dynamic="member-stories">
+          <article class="slide">
+            <div class="info-card">
+              <h3>Loading stories...</h3>
+              <p>Please wait while we load member stories.</p>
+            </div>
+          </article>
+        </div>
+        <button class="slider-btn next" type="button" aria-label="Next success story">&#10095;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-main">
+    <div class="container footer-grid">
+      <section class="footer-block">
+        <h3>Contact Us</h3>
+        <p>Address: Plot 3/3345, Likuni Road</p>
+        <p>P O Box 40442, Kanengo</p>
+        <p>Country/City: Malawi, Lilongwe 4</p>
+        <p>Email: owitlilongwechapter@gmail.com</p>
+      </section>
+      <section class="footer-block">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a class="social-link" href="https://web.facebook.com/profile.php?id=61588492718103" target="_blank" rel="noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.12 8.44 9.88v-6.99H7.9v-2.9h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.9h-2.34V22C18.34 21.12 22 16.99 22 12z"/></svg>
+          </a>
+          <a class="social-link" href="https://x.com/OwitLChapter" target="_blank" rel="noreferrer" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.53 5.47a.75.75 0 0 0-1.06 0L12 13.94 3.53 5.47a.75.75 0 1 0-1.06 1.06L10.94 15l-8.47 8.47a.75.75 0 1 0 1.06 1.06L12 16.06l8.47 8.47a.75.75 0 0 0 1.06-1.06L13.06 15l8.47-8.47a.75.75 0 0 0 0-1.06z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/posts/owit-lilongwe-4789263b2_owitlilongwe-womenintrade-financialliteracy-activity-7434192077976080384-25TL?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAGTfWRwBl1oVjDaFVZyWq7AwSodw0Eq9qa0&utm_campaign=whatsapp" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.6 4.1 5.5 2.98 5.5S1 4.6 1 3.5 1.88 1.5 2.98 1.5 4.98 2.4 4.98 3.5zM.5 8.5h4.98V24H.5V8.5zm7.5 0h4.78v2.14h.07c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-4.98v-7.4c0-1.77-.03-4.05-2.47-4.05-2.47 0-2.85 1.93-2.85 3.92V24H8V8.5z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/owit_lilongwe_chapter/" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5-1.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/></svg>
+          </a>
+        </div>
+      </section>
+      <section class="footer-block">
+        <h3>Menu Highlights</h3>
+        <details class="footer-links-dropdown">
+          <summary>Quick Links</summary>
+          <ul class="footer-links-list">
+            <li><a href="/events-programs#upcoming-events">Events</a></li>
+            <li><a href="/join-us#become-member">Membership</a></li>
+            <li><a href="/about#history">History</a></li>
+            <li><a href="/partners-sponsors">Partners</a></li>
+          </ul>
+        </details>
+      </section>
+    </div>
+    <div class="container footer-bottom">Copyright @ 2026 OWITL. All Rights Reserved.</div>
+  </footer>
+  <script src="/js/content.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
