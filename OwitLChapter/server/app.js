@@ -75,4 +75,5 @@ const startServer = (port, attemptsLeft) => {
   });
 };
 
-startServer(START_PORT, MAX_PORT_ATTEMPTS);
+//startServer(START_PORT, MAX_PORT_ATTEMPTS);
+module.exports = app;
